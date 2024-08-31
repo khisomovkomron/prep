@@ -40,7 +40,7 @@ contract AnotherContract{
     mapping(address => uint) public balances;
 
     /**
-    @note: function get data from other contract argument
+    * function get data from other contract argument
      */
     function setName(string calldata _name) external returns(string memory){
         name = _name;
